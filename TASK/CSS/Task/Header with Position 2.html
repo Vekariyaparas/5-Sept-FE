@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Position</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        header {
+            width: 100%;
+            height: 100px;
+            border: 1px solid black;
+            background-color: rgb(235, 204, 168);
+        }
+        
+        .logo {
+            float: left;
+            width: 15%;
+            height: 100px;
+            /* border: 1px solid black; */
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100px;
+        }
+        
+        nav {
+            float: left;
+            width: 85%;
+            height: 100px;
+            /* border: 1px solid black; */
+        }
+        
+        nav ol {
+            list-style: none;
+            margin-top: 30px;
+        }
+        
+        nav ol li {
+            display: inline-block;
+            padding: 10px;
+        }
+        
+        nav ol li a {
+            font-size: 30px;
+            text-decoration: none;
+            text-transform: capitalize;
+            border-radius: 8px;
+            background-color: rgb(172, 160, 142);
+            padding: 4px;
+        }
+        
+        .text {
+            width: 400px;
+            height: 300px;
+            position: absolute;
+            top: 40%;
+            left: 36%;
+            text-align: center;
+            text-transform: capitalize;
+            line-height: 60px;
+        }
+        
+        .text h1 {
+            margin-top: 20%;
+        }
+        
+        .text p {
+            font-size: x-large;
+            font-weight: 300;
+        }
+        
+        .text a {
+            border-radius: 6px;
+            background-color: aqua;
+            font-size: x-large;
+            font-weight: 300;
+            text-decoration: none;
+            padding: 10px;
+        }
+        
+        body {
+            background-image: url(p2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="l2.png" alt="">
+        </div>
+        <nav>
+            <ol>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Product</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <div class="text">
+        <h1>Welcome To This webpage</h1>
+        <p>This Website is about online selling</p>
+        <a href="https://www.info.com/serp?q=beginner%20online%20trading&segment=info.0608&s1aid=3901214570&s1cid=13292059139&s1agid=120757333817&s1kid=kwd-328049623&utm_source=adwords&gclid=Cj0KCQjwnbmaBhD-ARIsAGTPcfWp7sG1kpMJBNNGtgBrAJ_YrOozCSu5GOgoDwIJztIUHaWwUFtSSIYaAgFLEALw_wcB">Learn more</a>
+    </div>
+</body>
+
+</html>

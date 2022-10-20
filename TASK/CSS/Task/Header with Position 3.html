@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with position</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        header {
+            width: 100%;
+            height: 100px;
+            border: 3px double black;
+            background-image: linear-gradient(rgb(165, 150, 122), pink);
+        }
+        
+        .logo {
+            float: left;
+            width: 15%;
+            height: inherit;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100px;
+        }
+        
+        nav {
+            float: left;
+            width: 85%;
+            height: 100px;
+            /* border: 1px solid black; */
+        }
+        
+        nav ol {
+            float: right;
+            list-style: none;
+            margin-top: 30px;
+        }
+        
+        nav ol li {
+            display: inline;
+            padding: 20px;
+        }
+        
+        nav ol li a {
+            font-size: 30px;
+            text-decoration: none;
+        }
+        
+        nav ol li a:hover {
+            border-radius: 10%;
+            background-color: black;
+            color: aliceblue;
+        }
+        
+        body img {
+            width: 100%;
+            height: 500px;
+            opacity: 0.7;
+        }
+        
+        .Position {
+            width: 300px;
+            height: 150px;
+            border: 3px double black;
+            position: absolute;
+            top: 45%;
+            left: 38%;
+            color: black;
+            line-height: 50px;
+            text-align: center;
+        }
+        
+        .Position a {
+            text-decoration: none;
+            border-radius: 7%;
+            background-color: rgb(94, 161, 223);
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="l3.png" alt="">
+        </div>
+        <nav>
+            <ol>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Sales</a></li>
+            </ol>
+        </nav>
+    </header>
+    <img src="p3.jpg" alt="">
+    <div class="Position">
+        <h1> Twitter Header</h1>
+        <p>Free twitter Header Photoshop Template</p>
+        <a href="https://www.google.com/search?q=twitter+header+template&rlz=1C1ONGR_enIN1022IN1022&oq=twitter+header+template&aqs=chrome..69i57.40663j0j7&sourceid=chrome&ie=UTF-8">Learn More</a>
+    </div>
+</body>
+
+</html>

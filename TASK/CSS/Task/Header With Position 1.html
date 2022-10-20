@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Position 1</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        header {
+            width: 100%;
+            height: 100px;
+            border: 1px solid black;
+            background-image: linear-gradient(grey, rgb(78, 68, 80));
+        }
+        
+        .logo {
+            float: left;
+            width: 15%;
+            height: 100px;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100px;
+        }
+        
+        nav {
+            float: left;
+            width: 85%;
+            height: 100px;
+            /* border: 1px solid black; */
+        }
+        
+        nav ol {
+            list-style: none;
+            margin-top: 20px;
+            margin-left: 245px;
+        }
+        
+        nav ol li {
+            display: inline-block;
+            padding: 20px;
+        }
+        
+        nav ol li a {
+            text-decoration: none;
+            font-size: 30px;
+            border-radius: 8px;
+            background-color: rgb(167, 100, 167);
+        }
+        
+        .box {
+            width: 350px;
+            height: 140px;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 45%;
+            left: 40%;
+            text-align: center;
+            line-height: 40px;
+        }
+        
+        .box p {
+            font-size: 20px;
+        }
+        
+        .box a {
+            text-decoration: none;
+            font-size: x-large;
+            border-radius: 6px;
+            background-color: rgb(104, 228, 104);
+            color: aliceblue;
+        }
+        
+        body {
+            background-image: url(p1.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="l1.jpg" alt="">
+        </div>
+        <nav>
+            <ol>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Sales</a></li>
+                <li><a href="">Services</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <div class="box">
+        <h1>Welcome Our Web Page</h1>
+        <p>Defence Research and Development</p>
+        <a href="">Learn More</a>
+    </div>
+</body>
+
+</html>
