@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        body {
+            background-image: url(book.jpg);
+            position: relative;
+        }
+        
+        .a {
+            width: 35px;
+            height: 35px;
+            border: 3px double black;
+            border-radius: 50%;
+            background-color: rgb(223, 223, 174);
+            position: absolute;
+            animation: demo;
+            animation-duration: 4s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes demo {
+            0% {
+                top: 28px;
+                left: 401px;
+            }
+            25% {
+                top: 28px;
+                left: 944px;
+            }
+            50% {
+                top: 522px;
+                left: 944px;
+            }
+            75% {
+                top: 522px;
+                left: 401px;
+            }
+            100% {
+                top: 28px;
+                left: 401px;
+            }
+        }
+        
+        .b {
+            width: 35px;
+            height: 35px;
+            border: 3px double black;
+            border-radius: 50%;
+            background-color: rgb(226, 150, 210);
+            position: absolute;
+            position: absolute;
+            animation: test;
+            animation-duration: 4s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes test {
+            0% {
+                top: 28px;
+                left: 673px;
+            }
+            8.33% {
+                top: 149px;
+                left: 770px;
+            }
+            16.66% {
+                top: 149px;
+                left: 943px;
+            }
+            24.99% {
+                top: 274px;
+                left: 856px;
+            }
+            33.32% {
+                top: 396px;
+                left: 943px;
+            }
+            41.65% {
+                top: 399px;
+                left: 770px;
+            }
+            50% {
+                top: 521px;
+                left: 673px;
+            }
+            58.33% {
+                top: 399px;
+                left: 572px;
+            }
+            66.66% {
+                top: 399px;
+                left: 399px;
+            }
+            74.99% {
+                top: 274px;
+                left: 486px;
+            }
+            83.32% {
+                top: 149px;
+                left: 401px;
+            }
+            91.65% {
+                top: 149px;
+                left: 572px;
+            }
+            100% {
+                top: 28px;
+                left: 673px;
+            }
+        }
+        
+        .c {
+            width: 35px;
+            height: 35px;
+            border: 3px double black;
+            border-radius: 50%;
+            background-color: rgb(131, 203, 236);
+            position: absolute;
+            position: absolute;
+            animation: task;
+            animation-duration: 4s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes task {
+            0% {
+                top: 191px;
+                left: 507px;
+            }
+            20% {
+                top: 191px;
+                left: 839px;
+            }
+            40% {
+                top: 361px;
+                left: 567px;
+            }
+            60% {
+                top: 81px;
+                left: 672px;
+            }
+            80% {
+                top: 361px;
+                left: 777px;
+            }
+            100% {
+                top: 191px;
+                left: 507px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+
+</body>
+
+</html>
