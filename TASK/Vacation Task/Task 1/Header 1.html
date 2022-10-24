@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        header {
+            width: 100%;
+            height: 100px;
+            border: 3px double grey;
+            background-image: radial-gradient(rgb(241, 241, 201), rgb(204, 159, 166), rgb(180, 213, 226));
+        }
+        
+        .logo {
+            float: left;
+            width: 15%;
+            height: inherit;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        nav {
+            float: left;
+            width: 60%;
+            height: 100%;
+            /* border: 1px solid black; */
+        }
+        
+        nav ol {
+            list-style: none;
+            margin-top: 33px;
+            margin-left: 60px;
+        }
+        
+        nav ol li {
+            display: inline-block;
+        }
+        
+        nav ol li a {
+            text-decoration: none;
+            font-size: 25px;
+            padding: 20px;
+            color: teal;
+        }
+        
+        .search {
+            float: left;
+            width: 25%;
+            height: 100%;
+            /* border: 1px solid black; */
+            position: relative;
+        }
+        
+        .search a {
+            border-radius: 25%;
+            background-image: linear-gradient(rgb(231, 231, 109), rgb(109, 175, 201));
+            position: absolute;
+            top: 30px;
+            left: 90px;
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(19, 17, 17);
+        }
+        
+        section {
+            width: 100%;
+            height: 500px;
+            background-image: url(photo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* opacity: 0.5; */
+        }
+        
+        .a {
+            font-weight: 600;
+            color: rgb(198, 204, 206);
+            letter-spacing: 10px;
+            padding-top: 100px;
+            padding-left: 30px;
+        }
+        
+        h1 {
+            color: aqua;
+            line-height: 50px;
+            font-size: 40px;
+            padding-left: 30px;
+        }
+        
+        .b {
+            font-size: 20px;
+            color: rgb(228, 231, 23);
+            letter-spacing: 2px;
+            padding-left: 30px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            padding-left: 30px;
+            color: rgb(133, 228, 228);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <nav>
+            <ol>
+
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">services</a></li>
+                <li><a href="">Showcase</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ol>
+        </nav>
+        <div class="search">
+            <a href="">PURCHASE</a>
+            <i class="fa fa-"></i>
+        </div>
+    </header>
+    <section>
+        <div>
+            <p class="a">17 YEAR OF EXPERIENCE</p><br>
+            <h1>We Are a <br> Web Design Agency</h1><br>
+            <p class="b">Far far away,behind word mountains,far from the countries vokalia and consonantia,<br> live the blind texts.Separated they live in Bookmarksgrove right at the coast of the semantics,<br>a large language ocean.Separated they live in Bookmarksgrove.
+            </p><br><br>
+            <a href="">Read More</a>
+        </div>
+
+    </section>
+</body>
+
+</html>
