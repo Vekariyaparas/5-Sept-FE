@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Header</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        
+        body {
+            background-image: url(design.jpg);
+        }
+        
+        header {
+            width: 100%;
+            height: 110px;
+            /* border: 3px double red; */
+        }
+        
+        .logo {
+            float: left;
+            width: 12%;
+            height: inherit;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 110px;
+        }
+        
+        nav {
+            float: left;
+            width: 88%;
+            height: 110px;
+        }
+        
+        nav li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        
+        nav li a {
+            text-decoration: none;
+            font-size: 30px;
+            padding-left: 80px;
+            color: white;
+        }
+        
+        nav ol input {
+            margin-left: 60px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        
+        section {
+            text-align: center;
+        }
+        
+        section h1 {
+            color: aquamarine;
+            padding-top: 100px;
+        }
+        
+        .a {
+            color: rgb(236, 233, 228);
+        }
+        
+        .b {
+            color: whitesmoke;
+            display: block;
+            border: 1px solid green;
+            background-color: green;
+            width: 350px;
+            margin-left: 506px;
+        }
+        
+        .c {
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="book.png" alt="">
+        </div>
+        <nav>
+            <ol>
+                <li><a href=""><i class="fa fa-phone"> 1-866-303-6061</i></a></li>
+                <li><a href="">Accountants</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Loging</a></li>
+                <input type="button" value="Sing Up Free">
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <h1>Accounting Made for You,<br> the Non-Accountant</h1><br>
+        <p class="a">Join 5 million people using FreshBooks to painiessly <br> send invoices, track time and capture expenses.</p><br>
+        <input type="text" placeholder="Company Name">
+        <input type="text" placeholder="Email Address"><br><br>
+        <span class="b">Try if Free for 30 Days</span><br>
+        <p class="c">No credit card required. No contracts. Cancel anytime</p>
+    </section>
+
+</body>
+
+</html>
