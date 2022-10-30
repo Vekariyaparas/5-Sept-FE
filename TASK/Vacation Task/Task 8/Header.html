@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Header</title>
+    <style>
+        header {
+            height: 760px;
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images.jpg);
+            background-size: cover;
+        }
+        
+        .logo {
+            height: 120px;
+            width: 10%;
+            /* border: 1px solid black; */
+            float: left;
+        }
+        
+        .logo img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        nav {
+            height: 120px;
+            width: 88%;
+            /* border: 1px solid black; */
+            float: left;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin-top: 30px;
+            margin-left: 100px;
+        }
+        
+        nav ul li a {
+            font-size: xx-large;
+            padding: 20px;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: white;
+        }
+        
+        nav ul li a:hover {
+            color: thistle;
+        }
+        
+        .text {
+            height: 300px;
+            width: 400px;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            text-align: center;
+        }
+        
+        .text h1 {
+            letter-spacing: 10px;
+            font-size: 60px;
+        }
+        
+        .text h2 {
+            letter-spacing: 10px;
+            color: rgb(4, 46, 22);
+        }
+        
+        .text h3 {
+            font-size: x-large;
+            letter-spacing: 8px;
+            text-transform: capitalize;
+        }
+        
+        .text ul li {
+            list-style: none;
+            font-size: larger;
+            font-family: 'Segoe UI';
+            text-transform: capitalize;
+        }
+        
+        button {
+            font-size: large;
+            padding: 5px;
+            background-color: rgb(145, 203, 203);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        button:hover {
+            border-radius: 30px;
+        }
+        
+        .icon {
+            position: absolute;
+            top: 40%;
+            left: 95%;
+            /* color: black; */
+        }
+        
+        .icon a i:hover {
+            background-color: thistle;
+            border-radius: 40px;
+            padding: 10px;
+        }
+        
+        .icon a i {
+            color: rgb(71, 69, 69);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">projects</a></li>
+                <li><a href="">service</a></li>
+
+            </ul>
+        </nav>
+        <div class="text">
+            <h1>INTERIOR </h1>
+            <h2>DESIGN</h2><br>
+            <h3>bring magic to home</h3><br>
+
+            <ul>
+                <li>residential design</li>
+                <li>office design</li>
+                <li>commercial design</li>
+            </ul>
+            <br><br>
+            <a href=""><button>Read more</button></a>
+        </div>
+        <div class="icon">
+            <a href=""><i class="fa fa-instagram" style="font-size:36px"></i></a><br><br>
+            <a href=""><i class="fa fa-facebook-square" style="font-size:36px"></i></a><br><br>
+            <a href=""><i class="fa fa-twitter" style="font-size:36px"></i></a>
+
+        </div>
+    </header>
+
+</body>
+
+</html>
