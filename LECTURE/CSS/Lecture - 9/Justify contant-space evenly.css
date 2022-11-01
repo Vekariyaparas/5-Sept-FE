@@ -1,0 +1,13 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main div img {
+    border-radius: 10px;
+}
