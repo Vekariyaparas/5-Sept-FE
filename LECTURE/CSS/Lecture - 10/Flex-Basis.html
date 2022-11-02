@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .main {
+        display: flex;
+    }
+    
+    .col1 {
+        flex-basis: 25%;
+        height: 130px;
+        border: 1px solid black;
+        background-color: aquamarine;
+    }
+    
+    .col2 {
+        flex-basis: 25%;
+        height: 130px;
+        border: 1px solid black;
+        background-color: rgb(31, 100, 77);
+    }
+    
+    .col3 {
+        flex-basis: 25%;
+        height: 130px;
+        border: 1px solid black;
+        background-color: rgb(57, 85, 76);
+    }
+    
+    .col4 {
+        flex-basis: 25%;
+        height: 130px;
+        border: 1px solid black;
+        background-color: rgb(9, 190, 130);
+    }
+    
+    @media(max-width:480px) {
+        .main {
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width:576px) {
+        .main {
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width:780px) {
+        .main {
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width:992px) {
+        .main {
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width:1200px) {
+        .main {
+            flex-direction: column;
+        }
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Basis</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="col1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rem ratione corporis sed sit ullam laborum eligendi in cum ipsum labore et vel cumque nostrum esse, corrupti sint maxime assumenda.
+        </div>
+        <div class="col2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, aliquam numquam! Possimus vitae placeat quas eius ullam maxime animi recusandae iste nulla laudantium architecto quos, ipsum, beatae similique, veniam nisi?
+        </div>
+        <div class="col3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, itaque fugit quasi possimus quas voluptates minus ut laborum, vel sapiente sint atque consectetur ea labore a eaque eligendi incidunt repellendus.
+        </div>
+        <div class="col3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci placeat sunt ducimus alias cupiditate reiciendis, dicta eius voluptas mollitia rem dolorum earum tempore voluptatem praesentium labore quos perspiciatis aut.
+        </div>
+    </div>
+</body>
+
+</html>
