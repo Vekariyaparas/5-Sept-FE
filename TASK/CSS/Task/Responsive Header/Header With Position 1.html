@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Position 1</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        
+        header {
+            width: 100%;
+            height: 600px;
+            border: 1px solid black;
+            background-image: linear-gradient(grey, rgb(78, 68, 80));
+        }
+        
+        .logo {
+            float: left;
+            width: 15%;
+            height: 100px;
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100px;
+        }
+        
+        nav {
+            float: left;
+            width: 85%;
+            height: 100px;
+            /* border: 1px solid black; */
+            background-image: linear-gradient(rgb(156, 155, 155), rgb(213, 199, 216));
+        }
+        
+        nav ol {
+            list-style: none;
+            margin-top: 20px;
+            margin-left: 245px;
+        }
+        
+        nav ol li {
+            display: inline-block;
+            padding: 20px;
+        }
+        
+        nav ol li a {
+            text-decoration: none;
+            font-size: 30px;
+            border-radius: 8px;
+            background-color: rgb(167, 100, 167);
+        }
+        
+        .box {
+            width: 350px;
+            height: 140px;
+            /* border: 1px solid black; */
+            margin-top: 21%;
+            margin-left: 37%;
+            text-align: center;
+            line-height: 40px;
+        }
+        
+        .box p {
+            font-size: 20px;
+        }
+        
+        .box a {
+            text-decoration: none;
+            font-size: x-large;
+            border-radius: 6px;
+            background-color: rgb(104, 228, 104);
+            color: aliceblue;
+        }
+        
+        section {
+            width: 100%;
+            height: 340px;
+            border: 20px solid rgb(78, 68, 80);
+        }
+        
+        section h1 {
+            font-size: 30px;
+            font-weight: 800;
+            color: rgb(60, 60, 233);
+            letter-spacing: 1px;
+            margin-top: 30px;
+            margin-left: 38%;
+        }
+        
+        section .view {
+            width: 100%;
+            height: 182px;
+            /* border: 1px solid blue; */
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        section .view .col1 {
+            width: 250px;
+            height: 180px;
+            border: 1px solid black;
+            padding: 5px;
+            letter-spacing: 2px;
+            background-color: teal;
+        }
+        
+        section .view .col2 {
+            width: 250px;
+            height: 180px;
+            border: 1px solid black;
+            padding: 5px;
+            letter-spacing: 2px;
+            background-color: rgb(3, 194, 194);
+        }
+        
+        section .view .col3 {
+            width: 250px;
+            height: 180px;
+            border: 1px solid black;
+            padding: 5px;
+            letter-spacing: 2px;
+            background-color: rgb(6, 243, 243);
+        }
+        
+        @media(max-width:992px) {
+            nav ol {
+                margin-top: 13px;
+                margin-left: 110px;
+            }
+            .box {
+                margin-top: 30%;
+                margin-left: 32%;
+            }
+        }
+        
+        @media(max-width:768px) {
+            nav ol {
+                margin-left: 12px;
+            }
+            .box {
+                margin-left: 27%;
+                margin-top: 37%;
+            }
+            section .view .col1 {
+                width: 240px;
+                padding: 1px;
+            }
+            section .view .col2 {
+                width: 240px;
+                padding: 1px;
+            }
+            section .view .col3 {
+                width: 240px;
+                padding: 1px;
+            }
+        }
+        
+        @media(max-width:576px) {
+            nav {
+                height: 50px;
+            }
+            .logo {
+                height: 50px;
+            }
+            .logo img {
+                height: 50px;
+            }
+            nav ol {
+                margin-left: 23px;
+                margin-top: 0px;
+            }
+            nav ol li a {
+                font-size: 15px;
+                padding: 2px;
+            }
+            .box {
+                margin-left: 20%;
+                margin-top: 45%;
+            }
+            section {
+                height: 670px;
+            }
+            section h1 {
+                margin-left: 25.5%;
+            }
+            section .view {
+                flex-direction: column;
+                position: absolute;
+                top: 850px;
+                left: 28.5%;
+            }
+            section .view .col2 {
+                margin-top: 10px;
+            }
+            section .view .col3 {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="l1.jpg" alt="">
+        </div>
+        <nav>
+            <ol>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Sales</a></li>
+                <li><a href="">Services</a></li>
+            </ol>
+        </nav>
+
+
+
+        <div class="box">
+            <h1>Welcome Our Web Page</h1>
+            <p>Defence Research and Development</p>
+            <a href="">Learn More</a>
+        </div>
+
+    </header>
+    <section>
+        <h1>Web Development</h1>
+        <div class="view">
+            <div class="col1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, ipsam fugiat quod laudantium magni impedit repellendus illum doloremque a quidem facilis non perspiciatis est nemo voluptates, at unde? Quae, nostrum!</p>
+            </div>
+            <div class="col2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima esse dolore sunt culpa ut ad, qui reprehenderit. Excepturi totam praesentium, maxime, laboriosam, quod blanditiis voluptatum velit veritatis alias necessitatibus fugit.</p>
+            </div>
+            <div class="col3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi aspernatur adipisci ipsam voluptas maxime dicta nihil quos, ullam magni perspiciatis in aperiam. Necessitatibus, totam. Ducimus maxime totam voluptate sequi .</p>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
