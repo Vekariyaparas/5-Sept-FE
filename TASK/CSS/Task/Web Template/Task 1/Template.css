@@ -1,0 +1,400 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 39, 39);
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    /* border: 3px double black; */
+    background-color: rgb(189, 184, 184);
+}
+
+.logo {
+    float: left;
+    width: 15%;
+    height: 80px;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+}
+
+.nav {
+    float: left;
+    width: 85%;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+
+.nav ol {
+    list-style: none;
+}
+
+.nav ol li {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 90px;
+    margin-top: 15px;
+}
+
+.nav ol li a {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 1780px;
+    /* border: 1px solid black; */
+}
+
+.position img {
+    width: 100%;
+    height: 500px;
+}
+
+.position div {
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    text-align: center;
+}
+
+.position div h1 {
+    color: bisque;
+    font-size: 30px;
+}
+
+.position div p {
+    color: rgb(199, 221, 155);
+    font-size: 17px;
+}
+
+.position div a {
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: powderblue;
+    color: grey;
+    padding: 7px;
+}
+
+.wel {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border: 10px solid rgb(2, 39, 39);
+}
+
+.welcome {
+    width: 990px;
+    height: 200px;
+    /* border: 10px solid ; */
+    padding: 15px;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.welcome h1 {
+    color: rgb(75, 75, 219);
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.welcome p {
+    letter-spacing: 1.5px;
+    color: rgb(2, 56, 56);
+}
+
+.welcome a {
+    border-radius: 40px;
+    background-color: wheat;
+    padding: 10px;
+    color: rgb(75, 75, 219);
+    text-decoration: none;
+    font-weight: 300;
+    /* border: 1px solid rgb(2, 56, 56); */
+}
+
+.three {
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid white; */
+}
+
+.three .story {
+    float: left;
+    width: 33%;
+    height: 180px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+
+.three .story i {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.three .story h3 {
+    color: white;
+    font-weight: 300;
+}
+
+.three .story p {
+    color: antiquewhite;
+    letter-spacing: 1.5px;
+}
+
+.three .mission {
+    float: left;
+    width: 34%;
+    height: 180px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.three .mission i {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.three .mission h3 {
+    color: white;
+    font-weight: 300;
+}
+
+.three .mission p {
+    color: antiquewhite;
+    letter-spacing: 1.5px;
+}
+
+.three .vision {
+    float: left;
+    width: 33%;
+    height: 180px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+}
+
+.three .vision i {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.three .vision h3 {
+    color: white;
+    font-weight: 300;
+}
+
+.three .vision p {
+    color: antiquewhite;
+    letter-spacing: 1.5px;
+}
+
+.services {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border: 30px solid rgb(2, 39, 39);
+}
+
+.services .data {
+    width: 1100px;
+    height: 300px;
+    /* border: 1px solid red; */
+    margin-left: 9%;
+    /* text-align: center; */
+    padding: 15px;
+}
+
+.services .data h2 {
+    color: rgb(75, 75, 219);
+    letter-spacing: 1px;
+    padding-left: 40%;
+}
+
+.services .data p {
+    color: rgb(2, 56, 56);
+    font-weight: 200;
+}
+
+.services .data .icon {
+    width: 780px;
+    height: 185px;
+    /* border: 1px solid red; */
+    padding: 15px;
+    column-count: 3;
+    column-gap: 10px;
+    margin-left: 12.5%;
+}
+
+.services .data .icon i {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.view {
+    width: 100%;
+    height: 170px;
+    /* border: 1px solid white; */
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.view .col1 {
+    /* float: left; */
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    /* margin-left: 5%; */
+    text-align: center;
+    padding: 15px;
+    margin-top: 2px;
+}
+
+.view .col1 i {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.view .col1 h1 {
+    font-size: 25px;
+}
+
+.view .col2 {
+    /* float: left; */
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    /* margin-left: 8%; */
+    text-align: center;
+    padding: 15px;
+    margin-top: 2px;
+}
+
+.view .col2 i {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.view .col2 h1 {
+    font-size: 25px;
+}
+
+.view .col3 {
+    /* float: left; */
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    /* margin-left: 8%; */
+    text-align: center;
+    padding: 15px;
+    margin-top: 2px;
+}
+
+.view .col3 i {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.view .col3 h1 {
+    font-size: 25px;
+}
+
+.view .col4 {
+    /* float: left; */
+    width: 220px;
+    height: 150px;
+    background-color: white;
+    /* margin-left: 8%; */
+    text-align: center;
+    padding: 15px;
+    margin-top: 2px;
+}
+
+.view .col4 i {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.view .col4 h1 {
+    font-size: 25px;
+}
+
+.last {
+    width: 100%;
+    height: 425px;
+    background-color: white;
+    border: 20px solid rgb(2, 39, 39);
+}
+
+.write {
+    width: 800px;
+    height: 170px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+    margin-left: 20.5%;
+}
+
+.write h1 {
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(75, 75, 219);
+}
+
+.write p {
+    letter-spacing: 1px;
+    color: rgb(2, 56, 56);
+}
+
+.write a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(75, 75, 219);
+}
+
+.last .img {
+    width: 1020px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-left: 13%;
+}
+
+.last .img img {
+    border-radius: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 15px;
+}
+
+footer .footer {
+    line-height: 30px;
+    letter-spacing: 2px;
+    background-color: rgb(4, 99, 99);
+}
