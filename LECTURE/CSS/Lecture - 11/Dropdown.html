@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+        .dropdown {
+            width: 100px;
+            /* border: 1px solid black; */
+        }
+        
+        .dropdown .product {
+            width: auto;
+            border: 1px solid black;
+            text-align: center;
+            padding: 3px;
+            background-color: gray;
+        }
+        
+        .dropdown .product a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .dropdown .sub a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            display: none;
+        }
+        
+        .dropdown:hover .sub a {
+            display: block;
+            border-bottom: 1px solid black;
+            last border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dropdown">
+        <div class="product">
+            <a href="#">PRODUCT</a>
+        </div>
+        <div class="sub">
+            <a href="#">Mobiles</a>
+            <a href="#">Leptops</a>
+            <a href="#">Computers</a>
+            <a href="#">Tablets</a>
+            <a href="#">LED</a>
+        </div>
+    </div>
+</body>
+
+</html>

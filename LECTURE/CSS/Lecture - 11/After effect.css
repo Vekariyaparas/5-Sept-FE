@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .main {
+    width: 100%;
+    height: 20vh;
+    border: 1px solid white;
+}
+
+header .main .logo {
+    margin-left: 2.5%;
+    float: left;
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+
+header .main .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .main .nav {
+    margin-right: 2.5%;
+    float: right;
+    width: 75%;
+    height: inherit;
+    /* border: 1px solid green; */
+}
+
+header .main .nav ol {
+    margin-top: 35px;
+    text-align: right;
+    list-style: none;
+}
+
+header .main .nav ol li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header .main .nav ol li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    transition: 2s;
+}
+
+header .main .nav ol li:hover::after {
+    width: 100%;
+}
+
+header .main .nav ol li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+header .position {
+    width: 500px;
+    height: 230px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 135px;
+    margin-left: 430px;
+}
+
+header .position a {
+    border: 1px solid black;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+}
