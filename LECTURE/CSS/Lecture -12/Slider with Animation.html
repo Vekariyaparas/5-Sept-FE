@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider with Animation</title>
+    <style>
+        div {
+            width: 250px;
+            height: 160px;
+            border-radius: 10px;
+            position: absolute;
+            animation-name: slide;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+        }
+        
+        div img {
+            border-radius: 20px;
+        }
+        
+        @keyframes slide {
+            0% {
+                top: 35%;
+                left: 38%;
+                background-image: url(images1.jpg);
+            }
+            20% {
+                top: 35%;
+                left: 38%;
+                background-image: url(images2.jpg);
+            }
+            40% {
+                top: 35%;
+                left: 38%;
+                background-image: url(images3.jpg);
+            }
+            60% {
+                top: 35%;
+                left: 38%;
+                background-image: url(images4.jpg);
+            }
+            80% {
+                top: 35%;
+                left: 38%;
+                background-image: url(images5.jpg);
+            }
+            100% {
+                top: 35%;
+                left: 38%;
+                background-image: url(images3.jpg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- <img src="images (1).jpg" alt=""> -->
+    </div>
+</body>
+
+</html>
