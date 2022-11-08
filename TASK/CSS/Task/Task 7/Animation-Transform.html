@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation-Transform</title>
+    <style>
+        .main {
+            width: 100%;
+            height: 600px;
+            border: 3px dotted black;
+            display: flex;
+            background-image: linear-gradient(to right top, #f2d2e4, #ffcfd5, #ffd0be, #ffd7a8, #e8e39e, #dbe8a3, #ceedab, #c0f1b5, #cdf0b9, #d8efbe, #e1eec4, #e8eecc);
+        }
+        
+        .main .trans {
+            width: 33.33%;
+            height: inherit;
+            /* border: 1px solid red; */
+        }
+        
+        .main .rotate {
+            width: 33.33%;
+            height: inherit;
+            /* border: 1px solid blue; */
+        }
+        
+        .main .line {
+            width: 33.34%;
+            height: inherit;
+            /* border: 1px solid orange; */
+        }
+        
+        .main .trans .a {
+            width: 270px;
+            height: 180px;
+            border-radius: 15px;
+            transform: translate(20px, 150px);
+            animation-name: one;
+            animation-duration: 4s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        
+        @keyframes one {
+            0% {
+                top: 0px;
+                left: 0px;
+                background-image: url(download11.jpg);
+            }
+            25% {
+                top: 0px;
+                left: 0px;
+                background-image: url(download13.jpg);
+            }
+            50% {
+                top: 0px;
+                left: 0px;
+                background-image: url(download14.jpg);
+            }
+            75% {
+                top: 0px;
+                left: 0px;
+                background-image: url(download15.jpg);
+            }
+            100% {
+                top: 0px;
+                left: 0px;
+                background-image: url(download15.jpg);
+            }
+        }
+        
+        .main .trans .b {
+            width: 270px;
+            height: 180px;
+            border-radius: 15px;
+            animation-name: two;
+            animation-duration: 4s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
+            transform: translate(150px, 90px);
+            position: absolute;
+            top: 170px;
+            left: 20px;
+        }
+        
+        @keyframes two {
+            0% {
+                top: 170px;
+                left: 20px;
+                background-image: url(download12.jpg);
+            }
+            25% {
+                top: 170px;
+                left: 20px;
+                background-image: url(download16.jpg);
+            }
+            50% {
+                top: 170px;
+                left: 20px;
+                background-image: url(download15.jpg);
+            }
+            75% {
+                top: 170px;
+                left: 20px;
+                background-image: url(download14.jpg);
+            }
+            100% {
+                top: 170px;
+                left: 20px;
+                background-image: url(download13.jpg);
+            }
+        }
+        
+        .main .rotate .skew {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            margin-top: 200px;
+            margin-left: 120px;
+            transform: skew(10deg, -25deg);
+            background-color: teal;
+            animation-name: skew;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            position: absolute;
+            top: 0px;
+            left: 470px;
+        }
+        
+        @keyframes skew {
+            0% {
+                top: 0px;
+                left: 470px;
+                transform: rotate(0deg);
+                /* transform: skew(10deg, -25deg); */
+                background-color: teal;
+            }
+            25% {
+                top: 0px;
+                left: 470px;
+                /* transform: rotate(90deg); */
+                transform: skew(10deg, -25deg);
+                background-color: rgb(2, 155, 155);
+            }
+            50% {
+                top: 0px;
+                left: 470px;
+                transform: rotate(180deg);
+                /* transform: skew(10deg, -25deg); */
+                background-color: rgb(3, 184, 184);
+            }
+            75% {
+                top: 0px;
+                left: 470px;
+                /* transform: rotate(270deg); */
+                transform: skew(10deg, -25deg);
+                background-color: rgb(4, 211, 211);
+            }
+            100% {
+                top: 0px;
+                left: 470px;
+                transform: rotate(360deg);
+                background-color: rgb(5, 228, 228);
+            }
+        }
+        
+        .main .line .bol {
+            width: 220px;
+            height: 220px;
+            /* border: 1px solid black; */
+            margin-top: 200px;
+            margin-left: 120px;
+            position: absolute;
+            top: 0px;
+            left: 910px;
+            animation: bol;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        
+        @keyframes bol {
+            0% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(0deg);
+            }
+            10% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(36deg);
+            }
+            20% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(72deg);
+            }
+            30% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(108deg);
+            }
+            40% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(144deg);
+            }
+            50% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(180deg);
+            }
+            60% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(216deg);
+            }
+            70% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(252deg);
+            }
+            80% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(288deg);
+            }
+            90% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(324deg);
+            }
+            100% {
+                top: 0px;
+                left: 910px;
+                transform: rotate(360deg);
+            }
+        }
+        
+        .main .line .bol img {
+            width: 220px;
+            height: 220px;
+        }
+    </style>
+</head>
+<div class="main">
+    <div class="trans">
+        <div class="a">
+            <!-- <img src="download11.jpg" alt=""> -->
+        </div>
+        <div class="b">
+            <!-- <img src="download12.jpg" alt=""> -->
+        </div>
+    </div>
+    <div class="rotate">
+        <div class="skew"></div>
+    </div>
+
+    <div class="line">
+        <div class="bol">
+            <img src="bol.png" alt="">
+        </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>
