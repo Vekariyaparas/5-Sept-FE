@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+ul li a:hover {
+    box-shadow: 0 0 9px;
+    color: cyan;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+ul li:hover {
+    border-bottom: 2px solid cyan;
+}
+
+ul li {
+    height: 40px;
+    width: 105px;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    background-color: black;
+}
+
+li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.html {
+    width: 105px;
+    position: absolute;
+    left: 212px;
+    top: 42px;
+}
+
+.html li {
+    display: none;
+}
+
+ul li ul li:hover .html li {
+    display: block;
+}
+
+.css {
+    width: 105px;
+    position: absolute;
+    left: 212px;
+    top: 81px;
+}
+
+.css li {
+    display: none;
+}
+
+ul li ul li:hover .css li {
+    display: block;
+}
+
+.java {
+    width: 105px;
+    position: absolute;
+    left: 212px;
+    top: 121px;
+}
+
+.java li {
+    display: none;
+}
+
+ul li ul li:hover .java li {
+    display: block;
+}
+
+.bs {
+    width: 105px;
+    position: absolute;
+    left: 212px;
+    top: 201px;
+}
+
+.bs li {
+    display: none;
+}
+
+ul li ul li:hover .bs li {
+    display: block;
+}
