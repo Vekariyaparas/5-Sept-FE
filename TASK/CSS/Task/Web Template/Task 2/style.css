@@ -1,0 +1,834 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .main {
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid white; */
+}
+
+header .main .logo {
+    margin-left: 2.5%;
+    float: left;
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+
+header .main .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header .main .nav {
+    margin-right: 2.5%;
+    float: right;
+    width: 75%;
+    height: inherit;
+    /* border: 1px solid green; */
+}
+
+header .main .nav ol {
+    margin-top: 35px;
+    text-align: right;
+    list-style: none;
+}
+
+header .main .nav ol li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header .main .nav ol li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    transition: 2s;
+}
+
+header .main .nav ol li:hover::after {
+    width: 100%;
+}
+
+header .main .nav ol li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+header .position {
+    width: 500px;
+    height: 230px;
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: 135px;
+    margin-left: 430px;
+}
+
+header .position a {
+    border: 1px solid black;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+section {
+    width: 100%;
+    height: 465vh;
+    /* border: 2px solid black; */
+}
+
+section .intro {
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    padding: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+section .intro a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(14, 158, 158);
+    padding: 5px;
+    color: white;
+}
+
+section .about {
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid red; */
+    background-color: rgb(71, 70, 70);
+}
+
+section .about .data1 {
+    float: left;
+    width: 15%;
+    height: 110px;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+}
+
+section .about .data1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+section .about .data1 hr {
+    width: 50%;
+}
+
+section .about .data2 {
+    float: left;
+    width: 82%;
+    height: 110px;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+section .port {
+    width: 100%;
+    height: 630px;
+    /* border: 1px solid black; */
+}
+
+section .port .head {
+    width: 97%;
+    height: 100px;
+    /* border: 1px solid rebeccapurple; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+section .port .head .logo h1 {
+    float: left;
+    margin-top: 35px;
+    letter-spacing: 0.5px;
+}
+
+section .port .head .nav ul {
+    float: right;
+}
+
+section .port .head .nav ul li {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    margin-top: 28px;
+}
+
+section .port .head .nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+section .port .head .nav ul li a:hover {
+    border-radius: 5px;
+    background-color: rgb(14, 158, 158);
+    padding: 5px;
+}
+
+section .port .img {
+    width: 97%;
+    height: 460px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+section .port .img img {
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+section .customer {
+    width: 100%;
+    height: 160px;
+    /* border: 1px solid red; */
+}
+
+section .customer .blank {
+    width: 100%;
+    height: 80px;
+}
+
+section .customer .img {
+    width: 200px;
+    height: 130px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 1680px;
+    left: 350px;
+}
+
+section .customer .img img {
+    border-radius: 50%;
+    border: 2px solid rgb(14, 158, 158);
+}
+
+section .customer .write {
+    width: 100%;
+    height: 75px;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    background-color: rgb(14, 158, 158);
+}
+
+section .customer .write p {
+    margin-left: 550px;
+    letter-spacing: 0.5px;
+}
+
+section .team {
+    width: 100%;
+    height: 460px;
+    /* border: 1px solid red; */
+}
+
+section .team .write {
+    width: 200px;
+    height: 80px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+section .team .write h1 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+section .team .write hr {
+    width: 33%;
+    border: 2px solid;
+}
+
+section .team .pic {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section .team .pic .a .fa-facebook-official {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .a:hover .fa-facebook-official {
+    display: block;
+}
+
+section .team .pic .a .fa-twitter-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 107.5px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .a:hover .fa-twitter-square {
+    display: block;
+}
+
+section .team .pic .a .fa-google-plus-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .a:hover .fa-google-plus-square {
+    display: block;
+}
+
+section .team .pic .a {
+    position: relative;
+}
+
+section .team .pic .a::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    display: block;
+}
+
+section .team .pic .a:hover::after {
+    width: 250px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section .team .pic .a h1 {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .a p {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .a {
+    position: relative;
+}
+
+section .team .pic .a::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    display: block;
+}
+
+section .team .pic .b:hover::after {
+    width: 250px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section .team .pic .b .fa-facebook-official {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .b:hover .fa-facebook-official {
+    display: block;
+}
+
+section .team .pic .b .fa-twitter-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 107.5px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .b:hover .fa-twitter-square {
+    display: block;
+}
+
+section .team .pic .b .fa-google-plus-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .b:hover .fa-google-plus-square {
+    display: block;
+}
+
+section .team .pic .b h1 {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .b p {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .b {
+    position: relative;
+}
+
+section .team .pic .b::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    display: block;
+}
+
+section .team .pic .b:hover::after {
+    width: 250px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section .team .pic .c .fa-facebook-official {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .c:hover .fa-facebook-official {
+    display: block;
+}
+
+section .team .pic .c .fa-twitter-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 107.5px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .c:hover .fa-twitter-square {
+    display: block;
+}
+
+section .team .pic .c .fa-google-plus-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .c:hover .fa-google-plus-square {
+    display: block;
+}
+
+section .team .pic .c h1 {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .c p {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .c {
+    position: relative;
+}
+
+section .team .pic .c::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    display: block;
+}
+
+section .team .pic .c:hover::after {
+    width: 250px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section .team .pic .d .fa-facebook-official {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .d:hover .fa-facebook-official {
+    display: block;
+}
+
+section .team .pic .d .fa-twitter-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 107.5px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .d:hover .fa-twitter-square {
+    display: block;
+}
+
+section .team .pic .d .fa-google-plus-square {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 80px;
+    left: 165px;
+    display: none;
+    transition: 3s;
+}
+
+section .team .pic .d:hover .fa-google-plus-square {
+    display: block;
+}
+
+section .team .pic .d h1 {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .d p {
+    background-color: rgb(14, 158, 158);
+    text-align: center;
+}
+
+section .team .pic .d {
+    position: relative;
+}
+
+section .team .pic .d::after {
+    content: "";
+    width: 0;
+    height: 0;
+    background-color: black;
+    display: block;
+}
+
+section .team .pic .d:hover::after {
+    width: 250px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+section .mid {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+section .mid h2 {
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+section .mid a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+}
+
+section .service {
+    width: 100%;
+    height: 475px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+}
+
+section .service .heading {
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    margin-top: 40px;
+}
+
+section .service .heading h1 {
+    font-size: 30px;
+}
+
+section .service .heading hr {
+    width: 45%;
+    border: 2px solid;
+}
+
+section .icon {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid green; */
+    margin-top: 40px;
+}
+
+section .icon .col1 {
+    float: left;
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin-left: 25px;
+    text-align: center;
+}
+
+section .icon .col1 i {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+section .icon .col2 {
+    float: left;
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+section .icon .col2 i {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+section .icon .col3 {
+    float: left;
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+section .icon .col3 i {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+section .icon .col4 {
+    float: left;
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin-left: 25px;
+    text-align: center;
+}
+
+section .icon .col4 i {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+section .icon .col5 {
+    float: left;
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+section .icon .col5 i {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+section .icon .col6 {
+    float: left;
+    width: 32%;
+    height: 150px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+section .icon .col6 i {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+section .note {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(71, 70, 70);
+}
+
+section .note p {
+    font-size: 25px;
+    color: white;
+}
+
+section .contact {
+    width: 100%;
+    height: 380px;
+    /* border: 1px solid red; */
+}
+
+section .contact .title {
+    width: 200px;
+    height: 80px;
+    /* border: 1px solid green; */
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+section .contact .title h1 {
+    font-size: 30px;
+}
+
+section .contact .title hr {
+    width: 45%;
+    border: 2px solid
+}
+
+section .contact .phone {
+    width: 100%;
+    height: 170px;
+    /* border: 1px solid red; */
+}
+
+section .contact .phone .detail {
+    float: left;
+    width: 50%;
+    height: 170px;
+    /* border: 1px solid yellow; */
+    padding-left: 20px;
+}
+
+section .contact .phone .form {
+    float: left;
+    width: 50%;
+    height: 170px;
+    /* border: 1px solid cyan; */
+    padding-left: 500px;
+}
+
+section .contact .phone .form input {
+    border: none;
+    line-height: 45px;
+    border-bottom: 1px solid black;
+}
+
+section .contact .media {
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+section .contact .media a {
+    margin-left: 800px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(71, 70, 70);
+}
+
+footer p {
+    margin-left: 20px;
+    padding-top: 5px;
+}
