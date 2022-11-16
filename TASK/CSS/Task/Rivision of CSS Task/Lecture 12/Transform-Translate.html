@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform-Translate</title>
+    <style>
+        .a {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            animation-name: trans;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            transform: translate(20px, 150px);
+            position: absolute;
+        }
+        
+        @keyframes trans {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: black;
+            }
+            20% {
+                top: 0;
+                left: 0;
+                background-color: palevioletred;
+            }
+            40% {
+                top: 0;
+                left: 0;
+                background-color: lightblue;
+            }
+            60% {
+                top: 0;
+                left: 0;
+                background-color: cyan;
+            }
+            80% {
+                top: 0;
+                left: 0;
+                background-color: teal;
+            }
+            100% {
+                top: 0;
+                left: 0;
+                background-color: rgb(184, 44, 44);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a"></div>
+</body>
+
+</html>

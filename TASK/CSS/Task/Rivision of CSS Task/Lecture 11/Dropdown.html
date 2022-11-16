@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .Dropdown {
+            width: 100px;
+            border: 1px solid black;
+        }
+        
+        .Dropdown button {
+            width: 100%;
+            padding: 5px;
+        }
+        
+        .sub a {
+            display: none;
+            padding: 5px;
+            text-decoration: none;
+        }
+        
+        .Dropdown:hover a {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Dropdown">
+        <button>PRODUCTS</button>
+        <div class="sub">
+            <a href="#">Mobile</a>
+            <a href="#">Leptops</a>
+            <a href="#">Computers</a>
+            <a href="#">LED</a>
+        </div>
+    </div>
+</body>
+
+</html>

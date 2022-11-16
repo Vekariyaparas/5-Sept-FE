@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List-style--clear</title>
+    <style>
+        .a {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            float: left;
+            transition: 3s;
+        }
+        
+        .a:hover {
+            background-color: tan;
+        }
+        
+        .a ul li {
+            list-style: square;
+        }
+        
+        .b {
+            float: right;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            box-shadow: 3px 3px 3px 3px black;
+        }
+        
+        .b ul li {
+            list-style: georgian;
+        }
+        
+        .c {
+            height: 200px;
+            border: 1px solid black;
+            clear: both;
+        }
+        
+        .c:hover {
+            box-shadow: 5px 5px 5px 5px black;
+        }
+        
+        .c ul li {
+            list-style: decimal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="a">
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Product</li>
+        </ul>
+    </div>
+    <div class="b">
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Product</li>
+        </ul>
+    </div>
+    <div class="c">
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>Product</li>
+        </ul>
+    </div>
+</body>
+
+</html>

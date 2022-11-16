@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shudow class</title>
+    <style>
+        .a {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            display: block;
+            font-size: 25px;
+        }
+        
+        .a p::first-letter {
+            font-size: 30px;
+            color: red;
+        }
+        
+        .b {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            display: block;
+            font-size: 25px;
+        }
+        
+        .b p::first-line {
+            color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="a">
+        <p>ipsum dolor sit amet consectetur adipisicing elit. Animi nesciunt quae, deleniti consequatur quam accusantium laudantium iure non esse. Ab quo sunt quaerat amet blanditiis earum quibusdam corrupti, commodi aliquam!</p>
+    </span>
+
+    <span class="b">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, dolores? Labore esse repellendus facilis magnam veritatis beatae maxime laudantium vel rem, adipisci illo id temporibus! Totam ducimus aliquid aperiam id!</p>
+    </span>
+</body>
+
+</html>
