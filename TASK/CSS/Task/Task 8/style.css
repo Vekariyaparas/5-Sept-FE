@@ -1,0 +1,141 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.main .a {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(212, 145, 145);
+    transform: scaleX(2);
+}
+
+.main .b {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(14, 13, 13);
+    transform: scaleY(1.5);
+}
+
+.main .c {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(85, 7, 7);
+    transform: scaleX(1.3);
+}
+
+.main .d {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(138, 219, 31);
+}
+
+.main .e {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(189, 207, 21);
+    transform: scale(2)
+}
+
+.main .f {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(9, 124, 57);
+    transform: scaleY(2);
+}
+
+.main .g {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(36, 204, 196);
+}
+
+.main .h {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(110, 213, 231);
+    transform: scaleX(2.5);
+}
+
+.main .i {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(42, 95, 165);
+}
+
+.main .j {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(95, 42, 165);
+    transform: scaleY(1.1);
+}
+
+.main .k {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(165, 42, 159);
+}
+
+.main .l {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(207, 23, 93);
+    transform: scaleX(1.5);
+}
+
+.main .m {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(252, 5, 5);
+    transform: scale(1.3);
+}
+
+.main .n {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgb(37, 1, 1);
+}
+
+.main .o {
+    float: left;
+    width: 20%;
+    height: 200px;
+    border: 1px solid white;
+    background-color: brown;
+}
