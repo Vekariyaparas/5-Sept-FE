@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+.row .col1 {
+    width: 430px;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.row a {
+    text-decoration: none;
+    border-radius: 9px;
+    background-color: rgb(160, 158, 158);
+    padding: 3px;
+    color: black;
+    margin-top: 30px;
+}
+
+.row img {
+    width: 430px;
+    height: 300px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+.row img:hover {
+    transform: scale(1.06);
+    box-shadow: 5px 5px 5px black;
+}
