@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn1,
+        #btn2,
+        #btn3,
+        #btn4 {
+            width: 200px;
+            height: 50px;
+            border: 1px solid black;
+            background-color: teal;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn1" onclick="ad()">Additions</button>
+    <button id="btn2" onclick="sub()">Substractions</button>
+    <button id="btn3" onclick="div()">Divisions</button>
+    <button id="btn4" onclick="Mul()">Multiplications</button>
+</body>
+
+<script>
+    function ad() {
+        var a = parseInt(prompt("Enter of value a:- "));
+        var b = parseInt(prompt("Enter of value b:- "));
+        var c = a + b;
+        alert("additions of numbers is :- " + c);
+    }
+
+    function sub() {
+        var a = parseInt(prompt("Enter of value a:- "));
+        var b = parseInt(prompt("Enter of value b:- "));
+        var c = a - b;
+        alert("additions of numbers is :- " + c);
+    }
+
+    function div() {
+        var a = parseInt(prompt("Enter of value a:- "));
+        var b = parseInt(prompt("Enter of value b:- "));
+        var c = a / b;
+        alert("additions of numbers is :- " + c);
+    }
+
+    function Mul() {
+        var a = parseInt(prompt("Enter of value a:- "));
+        var b = parseInt(prompt("Enter of value b:- "));
+        var c = a * b;
+        alert("additions of numbers is :- " + c);
+    }
+</script>
+
+</html>
