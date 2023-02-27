@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Registration.css">
+    <script src="Registration.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    <div class="cls">
+    <form action="" name="myForm" onsubmit="return test()" method="">
+    <table>
+        <tr>
+            <th><label for="" >Frist Name :-</label></th>
+            <td><input type="text" name="fname" id="fname" pattern="[A-Za-z].{3,6}" title="Min.:-3 and Max.:-6 characters" placeholder="Enter Your Frist Name *" class="change"></td>
+        </tr>
+
+        <tr>
+            <th><label for="">Last Name :-</label></th>
+            <td><input type="text" name="lname" id="lname" pattern="[A-Za-z].{3,6}" title="Min.:-3 and Max.:-6 characters" placeholder="Enter Your Last Name *" class="change"></td>
+        </tr>
+
+        <tr>
+            <th><label for="">Email :-</label></th>
+            <td><input type="email" name="mail" id="mail" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6, }" title="Please enter valid format:- @gmail.com" placeholder="it should contain @... *" class="change"></td>
+        </tr>
+
+        <tr>
+            <th><label for="Phone">Phone :-</label></th>
+            <td><input type="tel" name="Phone" id="phone" maxlength="10" placeholder="Only 10 digits are allowed *" pattern="[0-9] .{10, 10}" title="please enter 10 degite (0-9)" class="change"></td>
+        </tr>
+
+        <tr>
+            <th><label for="">Gender :-</label></th>
+            <td>
+                <input type="radio" name="container" value="Male" id="gen" class="gen"> Male
+                <input type="radio" name="container" value="Female" id="gen"> Female
+            </td>
+        </tr>
+
+        <tr>
+            <th><label for="">Date Of Birth :-</label></th>
+            <td><input type="date" name="" id="dob" pattern="" placeholder="mm/dd/yyyy" class="change"></td>
+        </tr>
+        
+        <tr>
+            <th class="are"><label for="">Address :-</label></th>
+            <td><textarea name="" id="add" cols="98" rows="6" class="area"></textarea></td>
+        </tr>
+        
+        <tr>
+            <th><label for="">City :-</label></th>
+            <td><input type="text" name="" id="city" class="change"></td>
+        </tr>
+        
+        <tr>
+            <th><label for="">Area PIN :-</label></th>
+            <td><input type="text" name="" id="pin" pattern="[0-9].{6, 6}" maxlength="6" title="Please enter the 6 degite (0-9)." class="change"></td>
+        </tr>
+        
+        <tr>
+            <th><label for="">State :-</label></th>
+            <td><input type="text" name="" id="sta" title="Please enter your state name." class="change"></td>
+        </tr>
+        
+        <tr>
+            <th><label for="cars">Qulification :-</label></th>
+            <td>
+                <select name="cars" id="qua" class="qua">
+                    <option value="">Select Qulification :</option>
+                    <option value="10th">10th pass</option>
+                    <option value="12th">12th pass</option>
+                    <option value="Graguate">Graguate</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <th class="spe"><label for="">Specialization :-</label></th>
+            <td>
+                <input type="checkbox" name="container" value="Computer Science" id="spe"> Computer Science<br>
+                <input type="checkbox" name="container" value="Information Technology"> Information Technology<br>
+                <input type="checkbox" name="container" value="Computer Architecture"> Computer Architecture<br>
+                <input type="checkbox" name="container" value="Tele Communication"> Tele Communication
+                <div><p id="mass"></p></div>
+            </td>
+        </tr>
+        
+        <tr>
+            <th><label for="">Password :-</label></th>
+            <td><input type="password" name="" id="pass" title="Please enter your password." pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6, 6}$" maxlength="6"  class="change"></td>
+        </tr>
+        
+        <tr>
+            <th><input class="btn" type="submit" value="Registration" ></th>
+        </tr>
+        
+        
+    </table>
+    </form>
+</div>
+</body>
+<script>
+    function myfun(){
+        var a= document.myForm.container;
+        for(i=0; i<a.lenth; i++){
+            if(a[i].checked==true)
+            return true;
+        }
+    }
+
+   
+</script>
+</html>

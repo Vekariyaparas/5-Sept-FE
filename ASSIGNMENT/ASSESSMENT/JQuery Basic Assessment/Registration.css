@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.cls{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    line-height: 30px;
+    background-color: rgb(230, 207, 199);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    line-height: 35px;
+}
+th{
+    text-align: left;
+    white-space: nowrap;
+}
+td{
+    padding-left: 100px;
+    width: 90%;
+    height: 30px;
+}
+td .change{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    padding: 5px;
+}
+.qua{
+    padding: 5px;
+    height: 30px;
+}
+.area{
+    width: 80%;
+    outline: none;
+    padding: 5.5px;
+}
+.btn{
+    background-color: green;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.are{
+    transform: translate(0px, -35px);
+}
+.spe{
+    transform: translate(0px, -52px);
+}
