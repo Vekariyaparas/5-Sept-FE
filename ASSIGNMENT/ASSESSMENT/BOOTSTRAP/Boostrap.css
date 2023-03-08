@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.tops {
+    background: orangered;
+}
+
+.navbar-brand {
+    font-size: 20px !important;
+}
+
+.navtab {
+    list-style-type: none;
+}
+
+.navtab li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.navtab li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+
+.navtab li a:hover {
+    border: 1px solid lightblue;
+    border-radius: 2px;
+}
+.nav-link{
+    margin-left: 20%;
+    width: auto;
+}
+.input {
+    margin-left: 40%;
+}
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .navtab li {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .nav-link{
+        margin-left: 4%;
+        width: auto;
+    }
+
+    .input {
+        margin-left: 35.5%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .navtab li {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .nav-link{
+        margin-left: 0%;
+        width: auto;
+    }
+
+    .input {
+        margin-left: 31.5%;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    .navtab li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    .nav-link{
+        width: 200px;
+    }
+    .input {
+        margin-left: 20%;
+    }
+}
+
+/* About company page  */
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .bi-reception-4 {
+        margin-left: 29% !important;
+    }
+}
+.portfolio{
+    justify-content: space-evenly !important;
+}
+    /* portfolio  */
+@media only screen and (min-width:768px) and (max-width:992px){
+    .image{
+        width: 33% !important;
+        height: auto;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+    .image{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+/* slider  */
+.carousel-indicators{
+    transform: translate(0%, 400%) !important;
+}
+.carousel-control{
+    background: none !important;
+}
+
+    /* contact  */
+.cont{
+    width: 49% !important;
+    height: 30px;
+    outline: none;
+    margin-top: 4%;
+}
+.text{
+    width:98.5% !important;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    outline: none;
+}
