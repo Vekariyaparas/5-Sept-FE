@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delet</title>
+</head>
+<body>
+    <script>
+        function del(){
+            if(confirm('Are you sure to delet ?')){
+                alert('successfully deleted');
+                window.location="border.html";
+            }
+            else{
+                window.location="delet.html";
+            }
+        }
+    </script>
+    <button onclick="del()">Delet</button>
+</body>
+</html>

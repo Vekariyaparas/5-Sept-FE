@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee</title>
+    <style>
+        .class{
+            width: 60%;
+            margin-left: 16%;
+            margin-top:10%;
+            height: 300px;
+            background-color: goldenrod;
+            border-radius: 50px 50px 0px 0px;
+            padding: 30px;
+            transition: 2s ease;
+        }
+        .class:hover{
+            border: 5px dotted black;
+        }
+        h1{
+            text-align: center;
+            font-size:50px;
+        }
+        marquee{
+            padding-top: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="class">
+        <h1>Title</h1>
+        <marquee behavior="scroll" direction="up" scrollamount="3" scrollbehaviou="100" onmouseover="stop(this.value)" onmouseout="start(this.value)">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur odit eaque. Dolor officia tempora magni debitis voluptates officiis ab sint illum, accusantium voluptas eos aliquam eligendi, minima fugiat tempore.</marquee>
+    </div>
+</body>
+</html>

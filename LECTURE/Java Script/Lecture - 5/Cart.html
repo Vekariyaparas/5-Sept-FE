@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="cart.js"></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Code</th>
+            <th>Menu</th>
+            <th>Image</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Transh</th>
+        </tr>
+
+        <tr align="center">
+            <td>3101</td>
+            <td>Meggie</td>
+            <td><img src="download.jpg" alt="" width="200px"></td>
+            <td><input type="number" id="qty" min="1" max="10" value="0" onchange="pr()" style="width: 100px;"></td>
+            <td><input type="number" id="price" value="99" readonly style="width: 100px;"></td>
+            <td><span class="fa fa-trash" style="color: red;"></span></td>
+        </tr>
+
+        <tr>
+            <td colspan="6">
+                <h1 style="float: right; width: auto; background-color: red;">Subtotal of Iteam Rs:-<label id="tot">00</label> </h1>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
