@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/script.js"></script>
+    <title>effect</title>
+    <style>
+        #cantain 
+        {
+            width: 40%;
+            height: auto;
+            margin: auto;
+            padding: 25px;
+        }
+       </style>
+
+</head>
+<body>
+    <div id="cantain">
+        <p id="demo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint perferendis vero eaque recusandae enim aperiam exercitationem eius quibusdam harum, sapiente consequatur aut ducimus explicabo ipsa, rem quis magnam natus perspiciatis.</p>
+    
+    <button type="button" id="btn1">Hide</button>
+    <button type="button" id="btn2">Show</button>
+    <button type="button" id="btn3">Toggle</button>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $("#demo").hide(4000);
+        });
+
+        $("#btn2").click(function(){
+            $("#demo").show(4000);
+        });
+
+        $("#btn3").click(function(){
+            $("#demo").toggle(4000);
+        });
+    });
+</script>
+</html>

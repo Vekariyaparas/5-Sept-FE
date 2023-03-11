@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addclass</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .hed{
+            width: 90%;
+            padding: 10px;
+            margin: auto;
+            margin-top: 5%;
+            background-color: coral;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $(".cls").addClass("hed");
+        });
+    </script>
+</head>
+<body>
+    <div class="cls">
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit ducimus omnis obcaecati beatae magnam dolorum, error nostrum placeat nemo, dolore suscipit possimus ex. Sint assumenda aut error tempore aperiam porro!</p>
+    </div>
+</body>
+
+</html>

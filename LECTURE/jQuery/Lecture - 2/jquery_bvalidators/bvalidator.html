@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bslikerc.css">
+    <script src="../js/script.js"></script>
+    <script src="js/jquery.bvalidator.min.js"></script>
+    <!-- <script src="js/jquery.bvalidator.js"></script> -->
+    <script src="js/bslikerc.js"></script>
+    <script src="js/default.min.js"></script>
+    <title>bvalidator</title>
+    <style>
+    .reg 
+    {
+        width: 40%;
+        height: auto;
+        margin: auto;
+        padding: 25px;
+        box-shadow: 2px 3px 4px lightgray;
+        margin-top: 5%;
+        margin-left: 30%;
+        z-index: 5 !important;
+        background-color: white;
+    }
+
+    input[type="text"]
+    {
+        width: 200px;
+        height: auto;
+        margin: auto;
+        padding: 6px;
+        margin-top: 2%;
+        line-height: 0;
+    }
+
+    ::placeholder
+    {
+        color: red;
+    }
+   </style>
+    </style>
+</head>
+<body>
+    <div class="reg">
+        <h3>Register Form</h3>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestias totam, obcaecati enim in ab, reiciendis maxime sapiente numquam vitae non provident laborum facere quas maiores quaerat? Odit, aliquam eum?
+    
+         <form method="" id="frm" action="welcome.html">
+    
+            <input type="text" name="fname" placeholder="Firstname *" data-bvalidator="required,alpha">
+            <br><br>
+            
+            <input type="text" name="lname" placeholder="Lastname *" data-bvalidator="required,alpha">
+            <br><br>
+    
+                
+            <input type="text" name="mobile" placeholder="Mobile *" data-bvalidator="required,minlen[10],maxlen[10],digit">
+            <br><br>
+    
+            <input type="submit" name="sub" value="Register">
+    
+    
+    
+         </form>
+     </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#frm").bValidator();
+
+    });
+</script>
+</html>

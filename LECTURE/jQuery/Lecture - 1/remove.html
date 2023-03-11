@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    <div id="del">
+        <h1 align="center">User Information</h1>
+        <table align="center" width="70%">
+            <thead>
+                <tr>
+                <th>Id</th>
+                <th>Photo</th>
+                <th>Gender</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>DOB</th>
+                <th>Action</th>
+                </tr>
+            </thead>
+            
+                <tbody>
+                    <tr align="center">
+                        <td>1001</td>
+                        <td><img src="https://png.pngtree.com/element_our/20190604/ourmid/pngtree-user-avatar-boy-image_1482937.jpg" width="85px" height="85px"></td>
+                        <td>male</td>
+                        <td>Jignesh</td>
+                        <td>150 feet  ring road rajkot</td>
+                        <td>04/07/1990</td>
+                        <td><a href="#" id="del-user">Delete</a></td>
+                    </tr>
+                </tbody>
+            </tr>
+    
+        </table>
+        </div>
+</body>
+<script>
+    jQuery(document).ready(function(){
+        jQuery("#del-user").click(function(){
+            jQuery("#del").remove();
+        });
+    })
+</script>
+</html>
