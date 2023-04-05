@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100;1,200&family=Raleway:wght@300&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <title>Welcome to Registration Form</title>
+</head>
+
+<body>
+    <div class="frm">
+        <div>
+            <h1>Student Registaration Form</h1>
+        </div>
+        <form name="registration" action="">
+            <div>
+                <label for="">Frist Name :-</label>
+                <input type="text" name="" id="" placeholder="Enter Your Frist Name" class="changeinp" pattern="\w{3,6}" title="Minimum 3 and Maximum 6 characters requied" required>
+            </div>
+            <div>
+                <label for="">Last Name :-</label>
+                <input type="text" placeholder="Enter Your Last Name" class="changeinp lname" pattern="\w{3,6}" title="Minimum 3 and Maximum 6 characters requied" required>
+            </div>
+            <div>
+                <label for="">Email :-</label>
+                <input type="text" placeholder="atoz@gmail.com" class="changeinp mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            </div>
+            <div>
+                <label for="">Mobile :-</label>
+                <input type="tel" placeholder="only 10 digits are allowed" class="changeinp phone" pattern="\d{10,10}" title="Enter 10 digit Phone Number" required>
+            </div>
+            <div>
+                <label for="">Gender :-</label>
+                <input type="radio" name="gender" value="gender1" class="gender" required> Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="gender1" required> Female
+            </div>
+            <div>
+                <label for="">Date Of Birth :-</label>
+                <input type="date" name="" id="" placeholder="mm/dd/yy" class="changeinp dob" required>
+            </div>
+            <div>
+                <label for="">Address :-</label>
+                <textarea name="" id="" cols="30" rows="5" placeholder="Enter Your Messege" class="changeinp address" required></textarea>
+            </div>
+            <div>
+                <label for="">City :-</label>
+                <input type="text" placeholder="Enter Your City" class="changeinp city" pattern="\w{3,256}" required>
+            </div>
+            <div>
+                <label for="">Area PIN :-</label>
+                <input type="text" placeholder="Enter Your Pincode" class="changeinp pin" pattern="\d{6,6}" title="Enter 6 digit code" required>
+            </div>
+            <div>
+                <label for="">State :-</label>
+                <input type="text" placeholder="Enter Your State" class="changeinp state" pattern="\w{3,256}" required>
+            </div>
+            <div>
+                <label for="">Qualification :-</label>
+                <select name="" id="" class="qua" required>
+                    <option value=""></option>
+                    <option value="Master">Master</option>
+                    <option value="Bachelor">Bachelor</option>
+                    <option value="12th pass">12<sup>th</sup> pass</option>
+                    <option value="10th pass">10<sup>th</sup> pass</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Specification :-</label>
+                <input type="checkbox" value="check" name="check1" id="" class="spe"> Computer Science <br>
+                <input type="checkbox" value="check" name="check1" id="" class="spe1"> Information Technology <br>
+                <input type="checkbox" value="check" name="check1" id="" class="spe1"> Computer Architecture <br>
+                <input type="checkbox" value="check" name="check1" id="" class="spe1"> Tele Communication
+            </div>
+            <div>
+                <label for="">Password :-</label>
+                <input type="text" placeholder="Enter Your Password" class="changeinp pass" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\S+$).{6,}$" title="Enter Strong Password" required>
+            </div>
+            <div>
+                <input type="submit" value="Registered" class="button">
+            </div>
+        </form>
+    </div>
+</body>
+<!-- custom css  -->
+<link rel="stylesheet" href="style.css">
+</html>
